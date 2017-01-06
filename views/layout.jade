@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+      
+    script(type="text/javascript" src="javascripts/lib/phaser.js")
+    script(type="text/javascript" src="javascripts/lib/phaser-debug.js")
+    script(type="text/javascript" src="javascripts/lib/ScreenShake.js")
+        
+    script(type="text/javascript" src="javascripts/Boot.js")
+    script(type="text/javascript" src="javascripts/Preload.js")
+    script(type="text/javascript" src="javascripts/Menu.js")
+    script(type="text/javascript" src="javascripts/Help.js")
+    script(type="text/javascript" src="javascripts/Play.js")
+    script(type="text/javascript" src="javascripts/Credit.js")
+    script(type="text/javascript" src="javascripts/Leaderborad.js")
+        
+    script(type="text/javascript" src="javascripts/ui/Buttons.js")
+    script(type="text/javascript" src="javascripts/ui/Score.js")
+    script(type="text/javascript" src="javascripts/objects/Background.js")
+    script(type="text/javascript" src="javascripts/objects/player.js")
+    script(type="text/javascript" src="javascripts/objects/platform.js")
+    script(type="text/javascript" src="javascripts/objects/fruits.js")
+
+  body
+    block content
+    #gameContainer
+    #orientation
+    script(src="javascripts/Main.js")
